@@ -1,0 +1,36 @@
+.slogan{
+    height: 250px;
+    background-color: #ffe684;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+.blockTitle{
+
+    color: blue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.btnSubmit{
+width: 300px;
+    background-color: #faffff;
+display: flex;
+justify-content: center;
+align-items: center;
+align-self: center;
+border: none;
+color: #3bc3ff;
+}
+@media screen and (max-width: 360px){
+    .btnSubmit {
+        width: 100%;
+    }
+}

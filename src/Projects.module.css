@@ -1,0 +1,53 @@
+.projects{
+    height:100%;
+    background-color: #e05eff;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+
+}
+
+.projectsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.project{
+    width: 500px;
+    background-color: #0b5fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectImg{
+    height: 300px;
+    background-color: #ff1948;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnShow{
+    width: 150px;
+    height: 50px;
+    background-color: #f8ff9d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (max-width: 1252px){
+    .projectsWrapper{
+        justify-content: center;
+    }
+}
+
