@@ -6,7 +6,7 @@ function Main() {
     <div className={styles.main}>
       <div className={styles.container}>
           <div className={styles.greeting}>
-              <span>Привет</span>
+              <span>Hello</span>
               <span>Я Евгений <span>Тайшин</span></span>
               <h1> Я front-end разработчик</h1>
 
